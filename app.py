@@ -9,8 +9,8 @@ from langchain.docstore.document import Document
 load_dotenv() 
 
 # App Config
-st.set_page_config(page_title="LangChain: My Text Summarization App", page_icon="🦜")
-st.title("🦜 LangChain: My Text Summarization App")
+st.set_page_config(page_title="My Text Summarization App using Langchain", page_icon="🦜")
+st.title("🦜 My Text Summarization App using Langchain") 
 
 # Input and validate Groq API Key
 if "api_key_valid" not in st.session_state:
