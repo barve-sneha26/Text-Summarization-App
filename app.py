@@ -67,4 +67,4 @@ if st.session_state.api_key_valid:
                     st.success("Summary:")
                     st.write(output_summary)
             except Exception as e:
-                st.error(f"An error occurred: {e}")
+                st.error(f"Exception: {e}")
